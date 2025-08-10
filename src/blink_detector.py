@@ -117,7 +117,7 @@ class BlinkDetector:
                     print("Detected: I need help")
                     self.speak("I need help")
 
-                    phone_number = "+917646963462"  # Your number here
+                    phone_number = "+91"  # Your number here
                     message = "SOS! I need immediate help. Please check on me."
                     send_sos_message(phone_number, message)
                 elif blink_count == 4:
